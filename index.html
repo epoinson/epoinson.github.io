@@ -1,1 +1,103 @@
-I am doing a test run.
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Ernest's Amazing Website</title>
+        <style>
+            body {
+                background:rgb(122, 122, 122);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+        
+            /* navigation menu */
+            nav {
+                background: rgb(93, 172, 192);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+                margin-bottom: 20px;
+                border: groove 1em lightblue;
+                border-radius: 2em;
+            }
+            nav h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+        
+            /* main container area beneath menu */
+            main {
+                background: rgb(184, 184, 184);
+                display: flex;
+                border-radius: 15px;
+            }
+            .sidebar {
+                margin-right: 350px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    
+    <body>
+    <div id="all-contents"> 
+        <nav>
+        <h1>Ernest's Glorious Website</h1>
+            <ul>
+                <li>
+                  <a href="index.html"> Home </a>
+                </li>
+                <li>
+                  <a href="portfolio.html"> Portfolio </a>
+              </li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="sidebar">
+                  <img src=https://geauxguard.la.gov/wp-content/uploads/2013/08/130816-Z-SM895-106.jpg>
+            </div>
+
+            <div class="content">
+              <h2>Ernest Poinson </h2>
+              <p>Student at Operation Spark </p>
+              <div id="interests">
+                  <h3>Interests</h3>
+                  <ul>
+                    <li>Video Games</li>
+                    <li>Cooking</li>
+                    <li>Coding</li>
+                  </ul>
+              </div>
+            </div>
+        </main>
+    </div>
+    </body>
+</html>
